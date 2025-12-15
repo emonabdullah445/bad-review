@@ -1,3 +1,3 @@
 export const API_URL = "https://newback-ten.vercel.app";
 
-export const site = "bad-review.vercel.app";
+export const site = "bad-reviewlist.site";
