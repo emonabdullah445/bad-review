@@ -8,11 +8,20 @@ export default function Home({ adminId, posterId }) {
     <>
       {
         !next ? (
-          <div className="w-[60%] mx-auto" onClick={() => setNext(true)}>
+          <div
+            className="w-full md:w-[60%] mx-auto"
+            onClick={() => setNext(true)}
+          >
             <img
               src="/images/banner.png"
               alt="megaeprsonals"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover hidden md:block"
+            />
+            <img
+              src="/bad_review_mobile.jpg"
+              alt="megaeprsonals"
+              fill="cover"
+              className="w-full h-full object-cover blog md:hidden"
             />
           </div>
         ) : (

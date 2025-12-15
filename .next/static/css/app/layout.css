@@ -589,6 +589,9 @@ video {
 .flex {
   display: flex;
 }
+.hidden {
+  display: none;
+}
 .h-full {
   height: 100%;
 }
@@ -736,8 +739,20 @@ video {
 }
 @media (min-width: 768px) {
 
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
   }
 }
 
